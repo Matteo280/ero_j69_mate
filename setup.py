@@ -16,7 +16,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='todo',
+    maintainer='eros.mate',
     maintainer_email='eros.mate06@gmail.com',
     description='TODO: Package description',
     license='GNU General Public License v3.0',
