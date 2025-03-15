@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 from glob import glob
 import os
 
-package_name = 'ros2_py_template'
+package_name = 'ros2_weather_monitor'
 
 setup(
     name=package_name,
@@ -17,13 +17,14 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='todo',
-    maintainer_email='todo@todo.com',
+    maintainer_email='eros.mate06@gmail.com',
     description='TODO: Package description',
     license='GNU General Public License v3.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            # 'control_vehicle = ros2_py_template.control_vehicle:main',
+        'ros2_idojaras_jelento = ros2_weather_monitor.ros2_idojaras_jelento:main',
+        'ros2_idojaras_elemzo = ros2_weather_monitor.ros2_idojaras_subscriber:main',
         ],
     },
 )
